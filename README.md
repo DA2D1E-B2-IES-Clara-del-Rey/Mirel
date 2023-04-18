@@ -1,4 +1,4 @@
-# Carrusel de Portafolio de Desarrollador
+# Carrusel en un pagìna web dedicada a Boostrap 5
 
 Este repositorio contiene el código de un portafolio de desarrollador con una función de carrusel, construido utilizando Bootstrap 5, HTML, CSS y JavaScript. El portafolio también incluye un interruptor de modo oscuro y es completamente adaptable para diferentes dispositivos.
 
