@@ -89,3 +89,70 @@ Recuerda que cada proyecto puede tener sus propias reglas y pautas de contribuci
 - [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf) - Hoja de referencia rápida de comandos Git comunes.
 - [GitHub Learning Lab](https://lab.github.com/) - Aprende Git y GitHub mediante cursos prácticos y guiados directamente en GitHub.
 
+## Anexo I: Comparativa de plataformas de control de versiones
+
+Las tres soluciones más populares en el área de alojamiento de código y control de versiones utilizando Git son GitHub, GitLab y BitBucket.
+
+### 5.1.1 Comparativa de características principales
+
+| Características             | GitHub        | GitLab        | BitBucket     |
+| --------------------------- | ------------- | ------------- | ------------- |
+| Número de usuarios          | 73 millones   | 30 millones   | 10 millones   |
+| Repositorios privados       | Gratis        | Gratis        | Gratis        |
+| Repositorios públicos       | Gratis        | Gratis        | Gratis        |
+| Navegación                  |               |               |               |
+| Usabilidad                  |               |               |               |
+| Interfaz gráfica de usuario | GitHub Desktop (Gratis y Código Abierto) | Sourcetree (Gratis pero Propietario) | Sourcetree (Gratis pero Propietario) |
+| Almacenamiento de archivos grandes | Sí         | Sí             | Sí             |
+| Código abierto              | Sí             | Sí             | No             |
+| Integración con herramientas de terceros | Sí   | Sí             | Sí             |
+| Alojamiento de sitios estáticos | GitHub Pages | GitLab Pages  | Bitbucket Cloud (con limitaciones) o mediante complemento comercial: Pages for Bitbucket Server |
+
+### Planes actuales - Primavera 2022
+
+| Planes         | GitHub         | GitLab         | BitBucket      |
+| -------------- | -------------- | -------------- | -------------- |
+| Gratis         | Sí             | Sí             | Sí             |
+| Equipo Mediano | $44 por usuario/año | Premium $19 por usuario/mes | Standard $3 por usuario/mes (desde $15/mes) |
+| Top Enterprise | $231 por usuario/año | Ultimate $99 por usuario/mes | Premium $6 por usuario/mes (desde $30/mes) |
+| Autoalojado / Autogestionado | Enterprise Server $231 por usuario/año | Para todos los niveles Autoadministrado | Data Center $2300 por 25 usuarios/año |
+
+### Anexo II: Licencias
+
+Actualmente hay alrededor de un centenar de licencias de código abierto en el mercado, y elegir una no es tarea fácil; de hecho, puede convertirse en una tarea crítica que comprometa todo el proyecto. Dado que un análisis profundo del proceso de licenciamiento está fuera del alcance de este documento, este anexo está diseñado para ofrecer una visión rápida del estado actual en el campo.
+
+### Anexo III: Recursos
+
+- Sitios del proyecto
+  - PoliRural - Future Oriented Collaborative Policy Development for Rural Areas and People
+  - Digital Innovation Hub – Social Space for Smart Regions
+  - PoliRural GitHub Organization
+  - WP3 - Final Integration, Release & Licensing
+- Sitios principales relacionados con este documento
+  - GitHub / GitHub Docs
+  - OpenAIRE
+  - OpenAIRE in EOSC
+  - Zenodo
+- Artículos, informes y sitios informativos
+  - Research Data Guide 2022 – EUI Library
+  - Open Source and Open Data Licenses in the Smart Infrastructure Era: Review and License Selection Frameworks | SpringerLink (artículo con acceso restringido)
+  - Metadata quality | Nature collections
+  - FAIRsharing.org – Standards, databases y politicas
+## Recursos y Políticas
+
+- Open Source Licensing primer for Enterprise AI/ML | [Towards Data Science](https://towardsdatascience.com/open-source-licensing-primer-for-enterprise-ai-ml-1d1f6e2ca06c)
+- How to Apply a License to Your Open Source Software Project | [FOSSA](https://fossa.com/blog/how-to-apply-a-license-to-your-open-source-software-project/)
+- Disciplinary repositories - [Open Access Directory at Simmons University](http://oad.simmons.edu/oadwiki/Disciplinary_repositories)
+- License compatibility | [Wikipedia](https://en.wikipedia.org/wiki/License_compatibility)
+- Permissive software license | [Wikipedia](https://en.wikipedia.org/wiki/Permissive_software_license)
+
+## Herramientas
+
+- Choose an open source license | [Choose a License](https://choosealicense.com/) – by GitHub
+- [JSON-LD Playground](https://json-ld.org/playground/)
+- [JSON Formatter & Validator](https://jsonformatter.curiousconcept.com/) (curiousconcept.com)
+- [Citation File Format (CFF)](https://citation-file-format.github.io/) (citation-file-format.github.io)
+- [ScienceOpen](https://www.scienceopen.com/) – Un entorno interactivo de descubrimiento
+
+En resumen, este documento presenta una guía para la integración, publicación y licenciamiento de proyectos de software abierto, utilizando GitHub como plataforma de control de versiones. Se incluyen comparaciones de características y planes de las tres soluciones más populares en el área de alojamiento de código y control de versiones (GitHub, GitLab y BitBucket), así como información sobre licencias de código abierto y recursos útiles relacionados con el tema.
+
