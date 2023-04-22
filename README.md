@@ -1,6 +1,6 @@
 # Carrusel en una página web dedicada a Bootstrap 5
 
-Este repositorio contiene el código de un portafolio de desarrollador con una función de carrusel, construido utilizando Bootstrap 5, HTML, CSS y JavaScript. El portafolio también incluye un interruptor de modo oscuro y es completamente adaptable para diferentes dispositivos.
+Este repositorio contiene el código de una web con una función de carrusel, construido utilizando Bootstrap 5, HTML, CSS y JavaScript. El portafolio también incluye un interruptor de modo oscuro y es completamente adaptable para diferentes dispositivos.
 
 ## Características
 
