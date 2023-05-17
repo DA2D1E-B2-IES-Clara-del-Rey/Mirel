@@ -1,0 +1,13 @@
+.dark-mode {
+    background-color: #2e2e2e;
+    color: #fff;
+}
+.carousel-item img {
+    height: 400px; /* Cambia este valor según el tamaño que desees */
+    object-fit: cover;
+}
+
+.carousel-caption {
+    color: black;
+}
+
