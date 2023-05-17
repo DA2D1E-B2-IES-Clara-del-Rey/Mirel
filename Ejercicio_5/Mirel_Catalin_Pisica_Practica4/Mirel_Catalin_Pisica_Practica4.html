@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.0"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/addons/p5.sound.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <link rel="stylesheet" href="Mirel_Catalin_pisica_Practica4.css">
+    <title>Laberinto Fantástico</title>
+</head>
+<body>
+    <div id="intro-screen">
+        <h1 class="animate__animated animate__bounce">Laberinto Fantástico</h1>
+        <p class="animate__animated animate__flash">¿Te atreves a entrar?</p>
+
+        <div id="instrucciones">
+            <h2>Instrucciones del Juego de Laberinto Fantástico</h2>
+            <ol>
+                <li>Inicio del juego: Al presionar el botón "Empezar", se te presentaran los niveles de deficultad disponibles</li>
+                <li>Navegación: Utiliza las teclas de flecha en tu teclado para moverte a través del laberinto. Puedes moverte hacia arriba, abajo, a la izquierda y a la derecha.</li>
+                <li>Objetivo: El objetivo del juego es encontrar la salida del laberinto, marcada con el color azul en el tablero.</li>
+                <li>Barreras: Algunas áreas del laberinto están bloqueadas y no puedes pasar a través de ellas.</li>
+                <li>Niveles de Dificultad: El juego tiene tres niveles de dificultad: fácil, medio y difícil. En el nivel fácil, el laberinto es pequeño y simple. En el nivel medio, el laberinto es más grande y un poco más complejo. En el nivel difícil, el laberinto es muy grande y complejo.</li>
+                <li>Finalización del Juego: El juego termina cuando encuentras la salida del laberinto. Si deseas jugar de nuevo, simplemente presiona el botón "Empezar" de nuevo o "Volver al inicio" en cualquier momento".</li>
+            </ol>
+        </div>
+        
+        <button class="animate__animated animate__backInUp" onclick="empezarJuego()">Empezar</button>
+        <button class="animate__animated animate__backInUp" onclick="verIns()">Instrucciones</button>
+    </div>
+
+    <div id="level-screen" style="display: none;">
+        <h1 class="animate__animated animate__bounce">Elige tu nivel</h1>
+        <select id="level" onchange="cambiarNivel()">
+            <option value="facil">Fácil</option>
+            <option value="medio">Medio</option>
+            <option value="dificil">Difícil</option>
+        </select>
+        <button class="animate__animated animate__backInUp" onclick="empezarLaberinto()">Empezar</button>
+        <p id="mensajeTie">Este nivel se debe completar en 30 segundos</p>
+
+    </div>
+    
+
+    <div id="maze-screen" style="display: none;">
+        <div id="miCanvas"></div>
+        <div id="timer">Tiempo restante:</div> <!-- Mostrará el tiempo restante -->
+        <button class="animate__animated animate__backInUp" onclick="reiniciarJuego()">Volver al inicio</button>
+        
+    </div>
+    <div id="timeout-message" style="display: none;">
+        ¡Tiempo agotado! Inténtalo de nuevo. 
+    </div>
+    <div id="victory-message" style="display: none;">
+        <h2 class="animate__animated animate__bounce">¡Has ganado!</h2>
+        
+    </div>
+    
+    <script src="Mirel_Catalin_Pisica_Practica4.js"></script>
+    
+</body>
+</html>
