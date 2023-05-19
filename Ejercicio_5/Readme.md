@@ -1,5 +1,7 @@
 
 # Laberinto - El Juego
+#Link para la pagina publica
+#https://laberintofant.000webhostapp.com/
 
 Este es el repositorio de Laberinto, un emocionante juego basado en laberintos que puedes jugar directamente en tu navegador. El juego está diseñado para brindarte una aventura única mientras exploras laberintos desafiantes.
 
